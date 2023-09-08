@@ -1,0 +1,122 @@
+.contbody{
+    height: 1065px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.backpart1{
+    display: inline-block;
+    width:50%;
+    height:1075px;
+    background-color: rgb(194, 101, 132);
+}
+.backpart2{
+    width:50%;
+    display: inline-block;
+    background-color: rgb(88, 168, 168);
+    height: 1075px;
+}
+.address{
+    width:80%;
+    
+    background-color: palegoldenrod;
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    bottom:1000px;
+    left:150px;
+    height: 500px;
+    display: flex;
+    justify-content: right;
+    box-shadow: 3px 3px 20px 1px black;
+    div{
+        width:65%;
+        display: flex;
+    
+        .map{
+            overflow-x: hidden;
+            position: relative;
+            top:60px;
+            margin-left:20px;
+            display: flex;
+            flex-direction: column;
+            height: 400px;
+            iframe{
+                height: 300px;
+                border-radius: 20px 20px 20px 20px;
+                box-shadow: 2px 5px 10px 1px  grey;
+            }
+        }
+    }
+}
+.card{
+    position: relative;
+    bottom:1400px;
+    width:30%;
+    background-color:palegreen;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 10px 1px rgb(56, 55, 55);
+    height: 350px;
+    left:70px;
+    .cpar1{
+        font-size: 20px;
+        height: 100px;
+        justify-content: space-evenly;
+       a{color:rgb(28, 17, 17); 
+        text-decoration: none;}
+        display: flex;
+        flex-direction: column;
+    }
+    .cpar2{
+        
+        font-size: 30px;
+        text-decoration: none;
+        display: flex;
+        width:300px;
+
+        justify-content: space-evenly;
+    }
+}
+
+// Tablet View
+@media screen and (min-width:761px) and (max-width:1020px){
+    .address {
+        left: 100px;
+        font-size: 18px;
+    }
+    .card{
+        left:40px;
+        .cpar1{
+        font-size:13px;
+        }
+    }
+}
+@media screen and (max-width:760px){
+    .address {  
+        left: 50px;
+        font-size: 8px;
+        div{
+            width:80%;
+            display: flex;
+        
+            .map{
+                top:60px;
+                left:0%;
+                font-size:13px;
+                height: 500px;
+                iframe{
+                    height: 100px;
+                }
+            }
+        }
+    }
+    .card{
+        bottom:1100px;
+        width:60%;
+
+        .cpar1{
+        font-size:10px;
+        }
+    }
+}

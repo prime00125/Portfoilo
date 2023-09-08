@@ -1,0 +1,148 @@
+.Project_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.set {
+  width: 90%;
+  justify-content: space-around;
+  display: flex;
+  padding: 3% 0% 0% 0%;
+  align-items: center;
+}
+.set .project1 {
+  width: 500px;
+  height: 45vh;
+  box-shadow: 2px 3px 10px 5px grey;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  background-image: url("../images/Java-Logo.jpg");
+}
+.set .project2 {
+  width: 500px;
+  height: 45vh;
+  box-shadow: 2px 3px 10px 5px grey;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  background-image: url("../images/csharp_banner.png");
+}
+.set .project3 {
+  width: 500px;
+  height: 45vh;
+  box-shadow: 2px 3px 10px 5px grey;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  background-image: url("../images/php.jpg");
+}
+.set .project4 {
+  width: 500px;
+  height: 45vh;
+  box-shadow: 2px 3px 10px 5px grey;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  background-image: url("../images/android (1).jpg");
+}
+.set .project5 {
+  width: 500px;
+  height: 45vh;
+  box-shadow: 2px 3px 10px 5px grey;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  background-image: url("../images/react.png");
+}
+.set .project6 {
+  width: 500px;
+  height: 45vh;
+  box-shadow: 2px 3px 10px 5px grey;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  background-image: url("../images/webdev.jpg");
+}
+
+@media screen and (min-width: 761px) and (max-width: 1030px) {
+  .set .project1 {
+    width: 300px;
+    height: 30vh;
+  }
+  .set .project2 {
+    width: 300px;
+    height: 30vh;
+  }
+  .set .project3 {
+    width: 300px;
+    height: 30vh;
+  }
+  .set .project4 {
+    width: 300px;
+    height: 30vh;
+  }
+  .set .project5 {
+    width: 300px;
+    height: 30vh;
+  }
+  .set .project6 {
+    width: 300px;
+    height: 30vh;
+  }
+}
+@media screen and (max-width: 760px) {
+  .set {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .set .project1 {
+    width: 300px;
+    height: 30vh;
+  }
+  .set .project2 {
+    width: 300px;
+    height: 30vh;
+  }
+  .set .project3 {
+    width: 300px;
+    height: 30vh;
+  }
+  .set .project4 {
+    width: 300px;
+    height: 30vh;
+  }
+  .set .project5 {
+    width: 300px;
+    height: 30vh;
+  }
+  .set .project6 {
+    width: 300px;
+    height: 30vh;
+  }
+}/*# sourceMappingURL=Project.css.map */

@@ -1,0 +1,66 @@
+nav {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    background-color: black;
+
+    section {
+        display: flex;
+        width: 150px;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+
+            width: 50px;
+            background-color: white;
+            height: 50px;
+            border-radius: 30px 30px 30px 30px;
+            background-image: url(../images/Optimus-Prime-Transformers.webp);
+            background-size: cover;
+            
+        }
+    }
+
+    .bodyColor {
+        width: 130px;
+        height: 45px;
+        border: 1px solid white;
+        display: flex;
+        box-shadow: 1px 2px 1px 1px white;
+        border-radius: 50px 50px 50px 50px;
+
+       
+
+       
+    }
+}
+.prof:hover{
+    color:greenyellow;
+    
+}
+
+// Mobile View
+
+@media screen and (max-width:760px) {
+    nav {
+        section {
+            justify-content: left;
+            width: 100pxd;
+            font-size: 20px;
+        }
+        .bodyColor{
+            width:70px;
+            height: 30px;
+        button{
+                
+            width:30px;
+            height: 32px;
+            .sunlogo {
+                font-size: 15px;
+            }
+            }
+        }
+    }
+
+}

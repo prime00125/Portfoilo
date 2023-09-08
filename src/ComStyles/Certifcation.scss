@@ -1,0 +1,92 @@
+.CertifiedBody{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    span{
+        margin-top:50px;
+        border-radius:30px 5px 30px 5px;
+        background-image: linear-gradient(to right,red,purple,blue,red);
+        box-shadow: 3px 2px 30px red;
+        font-size: 40px;
+        width:300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight:bold ;
+        color:white
+    }
+.outline{
+    margin-top:40px;
+    box-shadow: 0px 0px  50px blueviolet;
+    height: 70vh;
+    width:60%;
+    background-image: url(../images/algo.jpg);
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .inline{
+        height: 100%;
+        width:90%;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+        
+
+        img{
+            width:50%;
+            display: flex;
+            flex-direction: column;
+            overflow-y: hidden;
+            left:200px;
+            transition: transform 0.8s ease-in-out;
+            position: relative;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 50px black;
+            top:50px;
+        }
+        img:hover{
+            transform:scale(1.2);
+        }
+      
+    }
+    .inline::-webkit-scrollbar {
+        display: none;
+    }
+}
+}
+
+@media screen and (min-width:761px) and (max-width:1020px) {
+   .CertifiedBody{
+    .outline{
+        width:80%;
+        .inline{
+            img{
+            left:120px;
+            }
+        }
+    }
+   }
+}
+
+
+
+@media screen and (max-width:760px){
+    .CertifiedBody{
+        span{
+            font-size:30px;
+            width:200px
+        }
+        .outline{
+            width:80%;
+            .inline{
+                img{
+                    left:60px;
+                }
+            }
+        }
+    }
+}

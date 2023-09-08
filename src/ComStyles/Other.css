@@ -1,0 +1,64 @@
+.Otherheading {
+  height: 8vh;
+  width: 180px;
+  margin: 50px;
+  display: flex;
+  color: aliceblue;
+  background-image: linear-gradient(to right, purple, blue, rgb(29, 255, 255), purple);
+  align-items: center;
+  font-weight: bolder;
+  justify-content: center;
+  font-size: 25px;
+  box-shadow: 2px 4px 25px purple;
+}
+
+.OtherBody {
+  display: flex;
+  justify-content: center;
+  height: 150vh;
+  background-color: rgb(221, 211, 211);
+}
+.OtherBody .matter {
+  z-index: 100;
+  text-align: justify;
+  margin-top: 5%;
+  display: flex;
+  background-color: white;
+  text-orientation: sideways;
+  align-items: center;
+  width: 90%;
+  height: 130vh;
+  padding-top: 3%;
+  box-shadow: 2px 5px 20px black;
+  flex-direction: column;
+}
+.OtherBody .matter li {
+  margin-top: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+.OtherBody .matter li:hover {
+  box-shadow: 2px 5px 10px grey;
+  transform: scale(1.1);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.OtherBody .matter div {
+  width: 90%;
+}
+
+@media screen and (min-width: 761px) and (max-width: 1030px) {
+  .OtherBody {
+    height: 230vh;
+  }
+  .OtherBody .matter {
+    height: 200vh;
+  }
+}
+@media screen and (max-width: 760px) {
+  .OtherBody {
+    height: 500vh;
+  }
+  .OtherBody .matter {
+    height: 460vh;
+  }
+}/*# sourceMappingURL=Other.css.map */

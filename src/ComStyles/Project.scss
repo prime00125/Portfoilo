@@ -1,0 +1,141 @@
+@mixin projectlogo{
+    width:500px;
+    height: 45vh;
+    box-shadow: 2px 3px 10px 5px grey;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border:none;
+}
+.Project_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.set{
+    width:90%;
+    justify-content: space-around;
+    display: flex;
+    padding: 3% 0% 0% 0%;
+    align-items:center;
+
+    
+
+.project1{
+    @include projectlogo;
+    background-image: url("../images/Java-Logo.jpg");
+   
+}
+ 
+.project2{
+    @include projectlogo;
+    background-image: url("../images/csharp_banner.png");
+}
+
+.project3{
+    @include projectlogo;
+    background-image: url("../images/php.jpg");
+}
+
+.project4{
+    @include projectlogo;
+    background-image: url("../images/android\ \(1\).jpg");
+}
+
+.project5{
+    @include projectlogo;
+    background-image: url("../images/react.png");
+}
+
+.project6{
+    @include projectlogo;
+    background-image: url("../images/webdev.jpg");
+}
+
+
+
+}
+@media screen and (min-width:761px) and (max-width:1030px){
+    .set{
+        .project1{
+            width:300px;
+            height: 30vh;
+        }
+        
+        .project2{
+            width:300px;
+            height: 30vh;
+        }
+        
+        .project3{
+            width:300px;
+            height: 30vh;
+        }
+        
+        .project4{
+            width:300px;
+            height: 30vh;
+        }
+        
+        .project5{
+            width:300px;
+            height: 30vh;
+        }
+        
+        .project6{
+            width:300px;
+            height: 30vh;
+        }
+
+    }
+}
+@media screen and (max-width:760px){
+    .set{
+        flex-direction: column;
+        
+        gap:50px;
+        .project1{
+            width:300px;
+            height: 30vh;
+        }
+        
+        .project2{
+            width:300px;
+            height: 30vh;
+        }
+        
+        .project3{
+            width:300px;
+            height: 30vh;
+        }
+        
+        .project4{
+            width:300px;
+            height: 30vh;
+        }
+        
+        .project5{
+            width:300px;
+            height: 30vh;
+        }
+        
+        .project6{
+            width:300px;
+            height: 30vh;
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+

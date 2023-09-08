@@ -1,0 +1,49 @@
+
+
+
+.list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    z-index: 1000;
+    height: 300px;
+    justify-content: space-between;
+    box-shadow: 1px 3px 8px  grey;
+    width:400px;
+    background-color: black;
+    position: absolute;
+    top:7%;
+    left:30%;
+    padding-top:30px;
+    align-items: center;
+    border-radius: 0px 0px 50px 50px;
+    transition: all 3s ease-in-out ;
+} 
+.list a{
+   color:white;
+    text-decoration: none;
+}
+.list a:hover{
+    color:greenyellow;
+}
+.Lclose{
+    height: 8vh;
+    font-size: larger;
+    font-weight: bold;
+    width:100%;
+    border-radius: 0px 0px 50px 50px ;
+    color:black;
+ 
+    
+}
+.Lclose:hover{
+    color:white;
+    background-color:greenyellow;
+}
+@media screen and (max-width:760px){
+    .list{
+        width:200px;
+        left:20%;
+        top:50px;
+    }
+}
