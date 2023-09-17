@@ -18,6 +18,8 @@ function Navbar() {
     </span>
         <section>
         <span onClick={()=>Setisopen(true)} className='prof'>Profile</span>
+  &nbsp;
+        <div className='logo' onClick={()=>Setisopen(true)}></div>
         </section>
     
         <List open={isopen} close={() => Setisopen(false)} />
