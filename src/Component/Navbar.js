@@ -13,9 +13,9 @@ function Navbar() {
   return (
     <div>
       <nav>
-    <section>
+    <span>
     <FontAwesomeIcon icon={faBars} onClick={()=>Setisopen(true)}/>
-    </section>
+    </span>
         <section>
       <div className='logo' onClick={()=>Setisopen(true)}></div>
         <span onClick={()=>Setisopen(true)} className='prof'>Profile</span>
